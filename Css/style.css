@@ -1,0 +1,347 @@
+@import "./reset.css" ;
+@font-face {
+    font-family: Vazir;
+    src: url('../vazir-font/Vazir-Regular.eot');
+    src: url('../vazir-font/Vazir-Regular.eot?#iefix') format('embedded-opentype'),
+         url('../vazir-font/Vazir-Regular.woff2') format('woff2'),
+         url('../vazir-font/Vazir-Regular.woff') format('woff'),
+         url('../vazir-font/Vazir-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{
+    direction:rtl ;
+    font-family: "Vazir" !important;
+}
+
+.s1{
+    background-image: url("../images/1.jpg");
+    background-size: cover;
+}
+
+.s1 ul{
+    width: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 5%;
+}
+
+.s1 ul li a{
+    text-decoration: none;
+    color: honeydew;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.s1 ul li{
+    z-index: 11111;
+    /* cursor: pointer; */
+}
+
+.s1 .slide{
+    position: relative;
+}
+.s1 .slide h1 a{
+    color: rgb(255, 218, 7);
+    text-decoration: none;
+    margin-right: 8px;
+}
+
+.s1 .slide h1 {
+    color: rgb(182, 180, 169);
+    font-size: 45px;
+    position: absolute;
+    top: 198px;
+    left: 146px;
+}
+
+.s1 .fp-controlArrow.fp-prev{
+    position: absolute;
+    top: 85%;
+    left: 20px;
+    border-width: 20px 20px 20px 0;
+}
+
+.s1 .fp-controlArrow.fp-next{
+    position: absolute;
+    top: 85%;
+    right: 1420px;
+    border-width: 20px 20px 20px;
+}
+
+.s1 ul li{
+    margin: 0px 15px;
+    cursor: pointer;
+}
+
+.s2{
+    background-image: url("../images/2.jpg");
+    background-size: cover;
+}
+
+.s3{
+    background-image: url("../images/3.jpg");
+    background-size: cover;
+}
+
+.s4{
+    background-image: url("../images/4.jpg");
+    background-size: cover;
+}
+
+.s5{
+    background-color: rgb(44, 44, 44);
+}
+
+#fp-nav ul li a.active span{
+    background: gold !important;
+}
+
+#fp-nav ul li .fp-tooltip {
+    font-family: 'Vazir';
+}
+
+#fp-nav ul li a span, .fp-slidesNav ul li a span{
+    background: honeydew;
+}
+
+.s2 .sectionTwo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.s2 .sectionTwo h3{
+    width: 100%;
+    text-align: center;
+}
+
+.s2 .sectionTwo ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.s2 .sectionTwo h3 span{
+    color: darkred;
+}
+
+.s2 .sectionTwo h3{
+    font-size: 50px;
+    padding: 40px;
+    margin-bottom: 20px;
+    color: floralwhite;
+}
+
+.s2 .sectionTwo ul li{
+    background-color: rgba(255, 255, 255, .8);
+    width: 45%;
+    text-align: center;
+    padding: 10px;
+    margin: 7px;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.s2 .sectionTwo ul li a{
+  text-decoration: none;
+  color: black;
+}
+
+.s2 .sectionTwo ul li a svg{
+    font-size: 120px;
+}
+
+.s2 .sectionTwo ul li a h4{
+    padding: 20px;
+}
+
+/* /// */
+
+.s3 .sectionThree{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.s3 .sectionThree h3{
+    width: 100%;
+}
+
+.s3 .sectionThree ul{
+    display: flex;
+    flex-wrap: wrap;
+    width: 40%;
+}
+
+.s3 .sectionThree h3 span{
+    color: rgb(177, 121, 0);
+}
+
+.s3 .sectionThree h3{
+    font-size: 40px;
+    padding: 40px;
+    color: floralwhite;
+}
+
+.s3 .sectionThree ul li{
+    background-color: rgba(255, 255, 255, .8);
+    width: 45%;
+    text-align: center;
+    padding: 10px;
+    margin: 7px;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.s3 .sectionThree ul li a{
+  text-decoration: none;
+  color: black;
+}
+
+.s3 .sectionThree ul li a img{
+    height: 150px;
+    width: 100%;
+}
+
+.s3 .sectionThree ul li a h4{
+    padding: 20px;
+}
+
+.s4 .sectionFour{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.s4 .sectionFour form{
+    width: 35%;
+    text-align: center
+}
+.s4 .sectionFour form input{
+    width: 96%;
+    padding: 8px;
+    margin: 5px;
+    font: "Vazir";
+    color: honeydew;
+    background-color: rgba(0, 0, 0, .7);
+    border: 3px solid rgb(75, 75, 75);
+}
+
+.s4 .sectionFour form textarea{
+    resize: none;
+    width: 96%;
+    height: 150px;
+    padding: 8px;
+    font: "Vazir";
+    color: ivory;
+    margin: 5px;
+    background-color: rgba(0, 0, 0, .7);
+    border: 3px solid rgb(70, 70, 70);
+}
+
+.s4 .sectionFour h1{
+    color: rgb(240, 236, 236);
+    font-size: 45px;
+    width: 100%;
+    padding: 50px;
+}
+
+.s4 .sectionFour h1 span{
+    color: lightgreen;
+}
+.s4 .sectionFour form input[type = "submit"]{
+    width: 100% !important ;
+    margin-top: 20px !important;
+    font-size: 17px;
+    color: seashell;
+    background-color: darkred;
+    cursor: pointer;
+    border: none;
+    border-radius: 3px;
+    /* box-sizing: border-box; */
+}
+
+::placeholder{
+    font-size: 15px;
+    color: rgb(206, 206, 206);
+}
+.s5 .footer {
+    margin: auto;
+    width: 900px;
+}
+.s5 .footer .footer-about{
+    display: flex;
+    margin-top: 40px;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.s5 .footer .footer-about h2{
+    width: 100%;
+    text-align: center;
+    color: lightgrey;
+    margin-bottom: 10px;
+}
+
+.s5 .footer .footer-about p{
+    color: lightgrey;
+    line-height: 21px;
+}
+
+.s5 .footer .footer-car{
+    margin-top: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.s5 .footer .footer-car ul{
+
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.s5 .footer .footer-car li a{
+    width: 100%;
+}
+
+.s5 .footer .footer-car li{
+    border-radius: 4px;
+    background-color: rgba(255, 255, 255, 0.7);
+    width: 23%;
+    padding: 4px;
+    box-sizing: border-box;
+    margin: 3px;
+}
+
+.s5 .footer .footer-car li img{
+    border-radius: 3px;
+    width: 100%;
+    height: 100%;
+}
+
+.s5 .footer .footer-car h2{
+    margin: 20px;
+    width: 100%;
+    color: lightgrey;
+    font-size: 25px;
+}
+
+.s5 .copy-Right{
+    margin-top: 50px;
+    text-align: center;
+    color: lightgrey;
+    font-size: 15px;
+
+}
